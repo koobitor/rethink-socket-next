@@ -1,0 +1,22 @@
+{
+  "name": "rethink",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "isomorphic-unfetch": "^2.1.1",
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "rethinkdb": "^2.3.3",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "dev": "nodemon -w server.js server.js"
+  }
+}
